@@ -35,7 +35,7 @@ After that, add a bullet point showing how the word may be hyphenated using the 
 
 * If a word has multiple senses, usages, or parts of speech do not prompt to ask which to include in the definition; just assume that the user wants all senses, usages and parts of speech. Always include all senses, usages and parts of speech. If the senses or usages are for different parts of speech, put the different senses or usages under the appropriate part of speech heading.
 
-* To associate a label associating a usage or category with a sense of a word, use an “lb” template like this: “# {{lb|en|slang}} An old fashioned person.”  To associate multiple labels with a sense of a word, add them to the same “lb” template like this: “{{lb|en|organic chemistry|biochemistry}}”. Also use the “lb” template to indicate that a verb is transitive or intransitive. Also use the “lb” template to indicate that a word is slang, rare, obsolete, archaic or other usage label.
+* To associate a label associating a usage or category with a sense of a word, use an “lb” template like this: “# {{lb|en|slang}} An old fashioned person.”  The “lb” template always is after the initial “#”  and before the text of the meaning. To associate multiple labels with a sense of a word, add them to the same “lb” template like this: “{{lb|en|organic chemistry|biochemistry}}”. Also use the “lb” template to indicate that a verb is transitive or intransitive. Also use the “lb” template to indicate that a word is slang, rare, obsolete, archaic or other usage label.
 
 * Never put a label for a usage or sense of a word in parentheses. Always use an “lb” template.
 
@@ -46,4 +46,5 @@ After that, add a bullet point showing how the word may be hyphenated using the 
 * Do not include internal artifacts in your output such as: ::contentReference[oaicite:14]{index=14}
 
 * Offer to list the sources that were consulted to compile the definition.
+
 
